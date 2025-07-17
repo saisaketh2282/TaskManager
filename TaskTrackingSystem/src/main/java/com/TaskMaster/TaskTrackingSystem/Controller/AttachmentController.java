@@ -9,7 +9,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/attachments")
+@RequestMapping("/api/attachment")
 public class AttachmentController {
     @Autowired
     private AttachmentService attachmentService;
